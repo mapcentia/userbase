@@ -44,6 +44,6 @@ $_SESSION['screen_name'] = $sUserID;
 $_SESSION['zone']= $sZone;
 
 if ($_SESSION['auth'] && $_SESSION['screen_name']) {
-	header("location: /user/login/p");
+	header("location: {$userHostName}/user/login/p");
 }
 ?>
