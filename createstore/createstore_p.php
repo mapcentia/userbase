@@ -8,7 +8,7 @@ if (!$_SESSION['screen_name']) {
 	$dbObj = $db -> createdb($name, $databaseTemplate, "UTF8");
 	// databaseTemplate is set in conf/main.php
 	if ($dbObj) {
-		header("location: {$hostName}/user/login/p");
+		header("location: {$userHostName}/user/login/p");
 	} else {
 		echo "<h2>Sorry, something went wrong. Try again</h2>";
 		echo "<div><a href='/user/signup' class='btn btn-danger'>Go back</a></div>";
