@@ -9,12 +9,14 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link href="http://cdn.us1.mapcentia.com/js/bootstrap/css/bootstrap.css" rel="stylesheet">
-		<link href="http://cdn.us1.mapcentia.com/js/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
+        <script src=""></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="/js/bootstrap/js/bootstrap.js"></script>
+        <link href="/js/bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="/js/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+
 		<link href="http://twitter.github.com/bootstrap/assets/css/docs.css" rel="stylesheet">
-		<script src="http://twitter.github.com/bootstrap/assets/js/jquery.js"></script>
-		<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-tooltip.js"></script>
-		<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-popover.js"></script>
 		<script src="http://beta.mygeocloud.cowi.webhouse.dk/js/jqote2/jquery.jqote2.js"></script>
 		<style type="text/css">
 			body {
@@ -23,6 +25,9 @@
 			.popover-title{
 				display: none !important;
 			}
+            .popover {
+                width: 200px;
+            }
 			h1, h2, h3, h4, h5, h6 {
 				margin: 10px 0;
 				font-family: inherit;
@@ -61,7 +66,7 @@
 			}
 			
 			.dashboard{
-				
+				min-height: 200px;
 			}
 			
 			.first {
@@ -110,9 +115,6 @@
 				text-shadow: 0 1px 0 rgba(255, 255, 255, .6);
 				line-height: 20px;
 			}
-			h2 span {
-				float: right;
-			}
 			h2 span i {
 				font-size: 13px;
 				font-weight: bold;
@@ -155,6 +157,9 @@
 			.form {
 				margin-bottom: 0px;
 			}
+            #btn-admin{
+                margin-top: 50px;
+            }
 		</style>
 		<script type="text/javascript">
             var _gaq = _gaq || [];
