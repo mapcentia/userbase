@@ -62,11 +62,11 @@ include '../html_header.php';
                             <input type="radio" name="Zone" value="us1" checked>
                             North America </label>
                         <label class="radio">
-                            <input type="radio" name="Zone" value="eu1">
+                            <input type="radio" name="Zone" value="eu1" disabled="true">
                             Europe </label>
-                        <label class="radio">
+                        <!--<label class="radio">
                             <input type="radio" name="Zone" value="local">
-                            Local </label>
+                            Local </label>-->
                     </div>
                     <div class="control-group">
                         <div class="controls">

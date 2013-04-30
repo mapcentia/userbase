@@ -73,7 +73,7 @@ if ($oVDaemonStatus && $oVDaemonStatus -> bValid) {
 			</div>
 
 			<p>
-				Not using MyGeoCloud? <b><a href="/user/signup/">Sign up</a></b>
+				Not using MapCentia GeoCloud? <b><a href="/user/signup/">Sign up</a></b>
 			</p>
 		</form>
 	</div>
