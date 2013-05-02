@@ -10,8 +10,6 @@
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <link href="/styles/banner-ie.css" rel="stylesheet">
     <![endif]-->
-
-    <script src=""></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/bootstrap/js/bootstrap.js"></script>
     <link href="/js/bootstrap/css/bootstrap.css" rel="stylesheet">
@@ -59,7 +57,6 @@
 
         .dialog, .dashboard {
             border: 1px solid black;
-
             padding: 40px;
             margin: auto;
             margin-top: 50px;
@@ -68,6 +65,11 @@
             border: 3px solid rgba(0, 0, 0, 0.2);
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
             background-clip: padding-box;
+        }
+        .dashboard-create{
+            padding: 40px;
+            margin: auto;
+            margin-top: 50px;
         }
 
         .dialog {
