@@ -52,7 +52,7 @@ $checkDb = json_decode(file_get_contents("http://{$prefix}{$domain}/controller/d
         <tr>
             <td><%= this . schema %></td>
             <td><a target="_blank"
-                   href="http://<?php echo "cdn.{$prefix}{$domain}/apps/viewer/" ?><%= db %>/<%= this . schema %>">View
+                   href="http://<?php echo "{$prefix}{$domain}/apps/viewer/" ?><%= db %>/<%= this . schema %>">View
                 </a></td>
         </tr>
     </script>
