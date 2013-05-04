@@ -1,7 +1,5 @@
 <?php
 include '../header.php';
-$_SESSION['auth'] = false;
-$_SESSION['screen_name'] = false;
-$_SESSION['zone'] = false;
+session_unset();
 ?>
 <script>window.location = '<?php echo $userHostName;?>'</script>

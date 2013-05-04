@@ -204,6 +204,7 @@
     </script>
 </head>
 <body>
+    <?php include_once("analyticstracking.php") ?>
     <span id="corner-banner">
             <em>beta</em>
         </span>
