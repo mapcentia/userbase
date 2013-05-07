@@ -49,7 +49,7 @@ $checkDb = json_decode(file_get_contents("http://{$prefix}{$domain}/controller/d
 </div>
 <?php if ($checkDb->success) : ?>
     <script type="text/html" id="template-schema-list">
-        <tr>
+        <tr class="map-entry">
             <td><%= this . schema %></td>
             <td><a target="_blank"
                    href="http://<?php echo "{$prefix}{$domain}/apps/viewer/" ?><%= db %>/<%= this . schema %>">View
