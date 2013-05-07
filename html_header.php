@@ -186,6 +186,13 @@
         #btn-admin {
             margin-top: 50px;
         }
+	.map-entry {
+	    font-size: 14pt;	
+	    font-weight: bold;	
+	}
+	.map-entry a {
+	   float:right;
+	}
     </style>
 </head>
 <body>
