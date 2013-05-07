@@ -2,7 +2,8 @@
 <html lang="en-us">
 <head>
     <title>MapCentia GeoCloud - Make mapping easy</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Store geographical data and make online maps"/>
     <meta name="keywords" content="GIS, geographical data, maps, web mapping, shape file, GPX, MapInfo, WMS, OGC"/>
     <meta name="author" content="Martin Hoegh"/>
