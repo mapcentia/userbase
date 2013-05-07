@@ -36,12 +36,17 @@ $sZone = VDFormat($_POST['Zone'], true);
 $sUserID = postgis::toAscii($sUserID, NULL, "_");
 $sPassword = Settings_viewer::encryptPw($sPassword);
 
-$sQuery = "INSERT INTO $sTable (screenname,pw,email,zone) VALUES('{$sUserID}','{$sPassword}','{$sEmail}','{$sZone}')";
-$postgisObject -> execQuery($sQuery);
+$sQuery = "INSERT INTO $sTable (screenname,pw,email,zone) VALUES('{$sUserID}','{$sPassword}','{$sEmail}','{$sZone}') RETURNING created";
+$res = $postgisObject -> execQuery($sQuery);
+$row = $postgisObject->fetchRow($res);
+
 
 $_SESSION['auth'] = true;
 $_SESSION['screen_name'] = $sUserID;
 $_SESSION['zone']= $sZone;
+$_SESSION['email']= $sEmail;
+$_SESSION['created'] = strtotime($row['created']);
+
 
 if ($_SESSION['auth'] && $_SESSION['screen_name']) {
 	header("location: {$userHostName}/user/login/p");
