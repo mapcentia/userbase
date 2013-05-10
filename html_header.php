@@ -20,7 +20,7 @@
     <script src="http://beta.mygeocloud.cowi.webhouse.dk/js/jqote2/jquery.jqote2.js"></script>
     <style type="text/css">
         body {
-            background: url(/theme/images/cartographer.png) repeat top left;
+            background: url(/theme/images/agsquare.png) repeat top left;
         }
 
         .popover-title {
@@ -61,7 +61,7 @@
             margin: auto;
             margin-top: 50px;
             background-color: white;
-            border-radius: 6px;
+            border-radius: 10px;
             border: 3px solid rgba(0, 0, 0, 0.2);
             box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
             background-clip: padding-box;
@@ -199,7 +199,7 @@
     <span id="corner-banner">
             <em>beta</em>
         </span>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
                 <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
