@@ -49,6 +49,7 @@ if ($oVDaemonStatus && $oVDaemonStatus->bValid) {
 ?>
 <div class="container">
     <div class="dialog">
+        <img src="/theme/images/MapCentia_500.png" id="logo">
         <form action="/user/login/" method="post" id="SelfSubmit" runat="vdaemon" class="">
             <h3>Login</h3>
 

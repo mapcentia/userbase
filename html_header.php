@@ -21,7 +21,7 @@
     <script src="http://beta.mygeocloud.cowi.webhouse.dk/js/jqote2/jquery.jqote2.js"></script>
     <style type="text/css">
         body {
-            background: url(/theme/images/agsquare.png) repeat top left;
+            background: url(/theme/images/bg_iso.png) repeat top left;
         }
 
         .popover-title {
@@ -74,7 +74,14 @@
         }
 
         .dialog {
+            position: relative;
             width: 440px;
+        }
+        #logo {
+            width: 120px;
+            position: absolute;
+            right: 20px;
+            bottom:20px;
         }
 
         .dashboard {
