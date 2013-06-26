@@ -207,36 +207,3 @@
     <span id="corner-banner">
             <em>beta</em>
         </span>
-    <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span
-                        class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
-                <a class="brand" href="/">GeoCloud</a>
-
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <!-- <li>
-                            <a href="">Feutures</a>
-                        </li> -->
-                        <li>
-                            <a href="/developers/index.html">Developers</a>
-                        </li>
-                       <!-- <li>
-                            <a href="/user/plans">Plans &amp; Pricing</a>
-                        </li> -->
-                        <li>
-                            <?php if (!$_SESSION['auth'] || !$_SESSION['screen_name']) {
-                                ?>
-                                <a href="/user/login">Log in</a>
-                            <?php } else { ?>
-                                <a href="/user/login">Dashboard</a>
-                            <?php } ?>
-                        </li>
-
-                    </ul>
-                </div>
-                <!-- -->
-            </div>
-        </div>
-    </div>
