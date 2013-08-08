@@ -61,8 +61,8 @@ $checkDb = json_decode(file_get_contents("http://{$prefix}{$domain}/controller/d
         var metaDataKeysTitle = [];
         var db = "<?php echo $_SESSION['screen_name'];?>";
         var hostName = "http://<?php echo "{$prefix}{$domain}";?>";
-        $(window).load(function () {
-            $.ajax({
+        $(window).ready(function () {
+            /*$.ajax({
                 url: hostName + '/controller/geometry_columns/' + db + '/getall/',
                 async: true,
                 dataType: 'jsonp',
@@ -76,6 +76,7 @@ $checkDb = json_decode(file_get_contents("http://{$prefix}{$domain}/controller/d
                     //console.log(metaData);
                 }
             });
+            */
             $.ajax({
                 url: hostName + '/controller/geometry_columns/' + db + '/getschemas',
                 async: true,
