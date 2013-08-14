@@ -7,7 +7,7 @@ include '../html_header.php';
 	<div class="row" style="margin-bottom: 20px; margin-top: 50px">
 		<div class="span4">
 			<div class="box">
-				<h2>Free<span>$0</span></h2>
+				<h2>Free $0</h2>
 				<div class='inner'>
 					<ul>
 						<li>
@@ -30,7 +30,7 @@ include '../html_header.php';
 		</div>
 		<div class="span4">
 			<div class="box">
-				<h2>Micro<span>$9<i>/mo</i></span></h2>
+				<h2>Micro $9<span><i>/mo</i></span></h2>
 				<div class='inner'>
 					<ul>
 						<li>
@@ -55,7 +55,7 @@ include '../html_header.php';
 		</div>
 		<div class="span4">
 			<div class="box">
-				<h2>Small<span>$19<i>/mo</i></span></h2>
+				<h2>Small $19<span><i>/mo</i></span></h2>
 				<div class='inner'>
 					<ul>
 						<li>
@@ -82,7 +82,7 @@ include '../html_header.php';
 	<div class="row">
 		<div class="span4">
 			<div class="box">
-				<h2>Medium<span>$39<i>/mo</i></span></h2>
+				<h2>Medium $39<span><i>/mo</i></span></h2>
 				<div class='inner'>
 					<ul>
 						<li>
@@ -107,7 +107,7 @@ include '../html_header.php';
 		</div>
 		<div class="span4">
 			<div class="box">
-				<h2>Large<span>$99<i>/mo</i></span></h2>
+				<h2>Large $99<span><i>/mo</i></span></h2>
 				<div class='inner'>
 					<ul>
 						<li>
@@ -132,7 +132,7 @@ include '../html_header.php';
 		</div>
 		<div class="span4">
 			<div class="box">
-				<h2>Enterprise<span>from $199<i>/mo</i></span></h2>
+				<h2>Enterprise from $199<span><i>/mo</i></span></h2>
 				<div class='inner'>
 					<p>
 						Get your own instance of MapSentia GeoCloud. Create all the databases you need with own user management system.
