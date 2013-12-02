@@ -9,7 +9,10 @@ include '../html_header.php';
             <form id="Register" action="p" method="POST" runat="vdaemon" disablebuttons="all">
                 <div class="control-group">
                     <h3>Sign up for GeoCloud</h3>
-                    <h5>Start with a free acount. No credit card needed.</h5>
+                    <div class="alert alert-success" style="text-align: center">
+                        Try the new and improved <a href="http://test.geocloud.mapcentia.com/user/login/">GeoCloud2</a><br>
+                        (You can use your existing account)
+                    </div>
 
                     <div class="controls first">
                         <vllabel validators="UserID,UserIDExist" errclass="error"

@@ -52,7 +52,9 @@ if ($oVDaemonStatus && $oVDaemonStatus->bValid) {
         <img src="/theme/images/MapCentia_500.png" id="logo">
         <form action="/user/login/" method="post" id="SelfSubmit" runat="vdaemon" class="">
             <h3>Login</h3>
-
+            <div class="alert alert-success" style="text-align: center">
+                Try the new and improved <a href="http://test.geocloud.mapcentia.com/user/signup/">GeoCloud2</a><br>
+            </div>
             <div class="control-group first">
 
                 <div class="controls">
