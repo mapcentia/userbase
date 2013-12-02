@@ -10,7 +10,7 @@ include '../html_header.php';
                 <div class="control-group">
                     <h3>Sign up for GeoCloud</h3>
                     <div class="alert alert-success" style="text-align: center">
-                        Try the new and improved <a href="http://test.geocloud.mapcentia.com/user/login/">GeoCloud2</a><br>
+                        Try the new and improved <a href="http://test.geocloud.mapcentia.com/user/signup/">GeoCloud2</a><br>
                         (You can use your existing account)
                     </div>
 
